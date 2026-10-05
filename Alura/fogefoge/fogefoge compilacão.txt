@@ -1,0 +1,4 @@
+gcc -c fogefoge.c -o fogefoge.o
+gcc -c mapa.c -o mapa.o
+gcc fogefoge.o mapa.o -o fogefoge
+./fogefoge
